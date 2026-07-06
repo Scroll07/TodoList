@@ -24,10 +24,10 @@ function BaseLayout() {
           </nav>
 
           <div className="auth-nav">
-            <NavLink to="/login" className="auth-nav__link">
+            <NavLink to="/web/login" className="auth-nav__link">
               Log in
             </NavLink>
-            <NavLink to="/register" className="button button--primary">
+            <NavLink to="/web/register" className="button button--primary">
               Register
             </NavLink>
           </div>

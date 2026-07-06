@@ -4,8 +4,8 @@ import './App.css'
 
 import BaseLayout from './layouts/BaseLayout'
 import HomePage from './pages/HomePage'
-// import LoginPage from './pages/LoginPage'
-// import RegisterPage from './pages/RegisterPage'
+import LoginPage from './pages/LoginPage'
+import RegisterPage from './pages/RegisterPage'
 
 function App() {
   
@@ -13,8 +13,8 @@ function App() {
     <Routes>
         <Route element={<BaseLayout />}>
             <Route path='/' element={<HomePage />} />
-            {/* <Route path='/web/login' element={<LoginPage />} /> */}
-            {/* <Route path='/web/register' element={<RegisterPage />} /> */}
+            <Route path='/web/login' element={<LoginPage />} />
+            <Route path='/web/register' element={<RegisterPage />} />
 
         </Route>
     </Routes>
